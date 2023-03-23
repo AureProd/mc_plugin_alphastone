@@ -1,0 +1,30 @@
+
+#       _                  ____                _ 
+#      / \  _   _ _ __ ___|  _ \ _ __ ___   __| |
+#     / _ \| | | | '__/ _ \ |_) | '__/ _ \ / _` |
+#    / ___ \ |_| | | |  __/  __/| | | (_) | (_| |
+#   /_/   \_\__,_|_|  \___|_|   |_|  \___/ \__,_|
+#                                                 
+
+name: Alphastone_plugin
+version: 1.0
+author: AureProd
+main: fr.aureprod.alphastone.Main
+api-version: 1.13
+commands:
+  give_kit:
+    description: §6Ceci est la commande pour give des kits > §4give_kit_player <kit>
+    permission: emeraude.use
+    permission-message: §cVous ne pouvez pas utiliser cette commande
+  give_kit_player:
+    description: §6Ceci est la commande pour give des kits donnés au player > §4give_kit_player <player> <kit>
+    permission: emeraude.use
+    permission-message: §cVous ne pouvez pas utiliser cette commande
+  give_kit_liste:
+    description: §6Ceci est la commande pour voir tous les kits  > §4give_kit_player
+    permission: emeraude.use
+    permission-message: §cVous ne pouvez pas utiliser cette commande
+permissions:
+  emeraude.use:
+    default: op
+    description: §2Autorise utilisation de la commande §4give_kit_playerk, §4give_kit_player et §4give_kit_player

@@ -1,0 +1,486 @@
+#       _                  ____                _ 
+#      / \  _   _ _ __ ___|  _ \ _ __ ___   __| |
+#     / _ \| | | | '__/ _ \ |_) | '__/ _ \ / _` |
+#    / ___ \ |_| | | |  __/  __/| | | (_) | (_| |
+#   /_/   \_\__,_|_|  \___|_|   |_|  \___/ \__,_|
+#                                                 
+
+kits:
+  delta:
+    name: "§4kit delta"
+    ouverture_recompence: "§6Voilà votre kit delta"
+    block: "GRAY_GLAZED_TERRACOTTA"
+    items:
+      leather_helmet: 
+        count: 1
+      leather_chestplate: 
+        count: 1
+      leather_leggings: 
+        count: 1
+      leather_boots: 
+        count: 1
+      stone_sword: 
+        count: 1
+      stone_pickaxe: 
+        count: 1
+      stone_axe: 
+        count: 1
+      stone_shovel: 
+        count:
+      bread: 
+        count: 16
+  dzeta:
+    name: "§4kit dzeta"
+    ouverture_recompence: "§6Voilà votre kit dzeta"
+    block: "LIGHT_BLUE_GLAZED_TERRACOTTA"
+    items:
+      chainmail_helmet: 
+        count: 1
+      chainmail_chestplate: 
+        count: 1
+      chainmail_leggings: 
+        count: 1
+      chainmail_boots: 
+        count: 1
+      iron_sword: 
+        count: 1
+      iron_pickaxe: 
+        count: 1
+      iron_axe: 
+        count: 1
+      iron_shovel: 
+        count: 1
+      cooked_mutton: 
+        count: 16
+  omega:
+    name: "§4kit omega"
+    ouverture_recompence: "§6Voilà votre kit omega"
+    block: "BLUE_GLAZED_TERRACOTTA"
+    items:
+      diamond_helmet: 
+        count: 1
+      diamond_chestplate: 
+        count: 1
+      diamond_leggings: 
+        count: 1
+      diamond_boots: 
+        count: 1
+      diamond_sword: 
+        count: 1
+      diamond_pickaxe: 
+        count: 1
+      golden_apple: 
+        count: 3
+      honey_bottle: 
+        count: 8
+  alpha:
+    name: "§4kit alpha"
+    ouverture_recompence: "§6Voilà votre kit alpha"
+    block: "BLACK_GLAZED_TERRACOTTA"
+    items:
+      diamond_helmet: 
+        count: 1 
+        enchants:
+          VANISHING_CURSE: 1 
+          PROTECTION_ENVIRONMENTAL: 2 
+          DURABILITY: 1
+      diamond_chestplate:
+        count: 1 
+        enchants:
+          VANISHING_CURSE: 1 
+          PROTECTION_ENVIRONMENTAL: 2 
+          DURABILITY: 1
+      diamond_leggings:
+        count: 1 
+        enchants: 
+          VANISHING_CURSE: 1 
+          PROTECTION_ENVIRONMENTAL: 2 
+          DURABILITY: 1
+      diamond_boots:
+        count: 1 
+        enchants: 
+          VANISHING_CURSE: 1 
+          PROTECTION_ENVIRONMENTAL: 2 
+          DURABILITY: 1
+      diamond_sword: 
+        count: 1
+      diamond_pickaxe: 
+        count: 1
+      cooked_beef: 
+        count: 16
+      enchanted_golden_apple: 
+        count: 1
+  colorant:
+    name: "§4kit colorant"
+    ouverture_recompence: "§6Voilà votre kit colorant"
+    block: "BLUE_DYE"
+    items:
+      yellow_dye:  
+        count: 16
+      purple_dye: 
+        count: 16
+      light_blue_dye: 
+        count: 16
+      light_gray_dye: 
+        count: 16
+      black_dye: 
+        count: 16
+      brown_dye: 
+        count: 16
+      blue_dye: 
+        count: 16
+      lime_dye: 
+        count: 16
+      gray_dye: 
+        count: 16
+      magenta_dye: 
+        count: 16
+      orange_dye: 
+        count: 16
+      red_dye: 
+        count: 16
+      pink_dye: 
+        count: 16
+      cyan_dye: 
+        count: 16
+      white_dye: 
+        count: 16
+      green_dye: 
+        count: 16
+  mineur:
+    name: "§4kit mineur"
+    ouverture_recompence: "§6Voilà votre kit mineur"
+    block: "DIAMOND_PICKAXE"
+    items:
+      diamond_pickaxe:
+        count: 1 
+        enchants:
+          DURABILITY: 3
+      coal_ore: 
+        count: 32
+      iron_ore: 
+        count: 24
+      gold_ore: 
+        count: 16
+      diamond_ore: 
+        count: 4
+      emerald_ore: 
+        count: 2
+      cooked_beef: 
+        count: 16
+      torch: 
+        count: 64
+      furnace: 
+        count: 2
+      white_shulker_box: 
+        count: 1
+      blast_furnace: 
+        count: 1
+  enchanteur:
+    name: "§4kit enchanteur"
+    ouverture_recompence: "§6Voilà votre kit enchanteur"
+    block: "ENCHANTING_TABLE"
+    items:
+      lectern: 
+        count: 4
+      enchanting_table: 
+        count: 1
+      experience_bottle: 
+        count: 254
+      lapis_lazuli: 
+        count: 16
+      enchanted_golden_apple: 
+        count: 1
+      bookshelf: 
+        count: 16
+      totem_of_undying: 
+        count: 1
+  end:
+    name: "§4kit end"
+    ouverture_recompence: "§6Voilà votre kit end"
+    block: "ENDER_PEARL"
+    items:
+      shulker_shell: 
+        count: 3
+      end_stone_bricks: 
+        count: 64
+      end_stone: 
+        count: 64
+      purpur_block: 
+        count: 64
+      purpur_pillar: 
+        count: 64
+      obsidian: 
+        count: 6
+      chorus_plant: 
+        count: 16
+      chorus_flower: 
+        count: 16
+      end_rod: 
+        count: 32
+      ender_eye: 
+        count: 6
+      elytra: 
+        count: 1
+  nether:
+    name: "§4kit nether"
+    ouverture_recompence: "§6Voilà votre kit nether"
+    block: "NETHER_QUARTZ_ORE"
+    items:
+      nether_bricks: 
+        count: 64
+      netherrack: 
+        count: 64
+      soul_sand: 
+        count: 64
+      obsidian: 
+        count: 4
+      nether_quartz_ore: 
+        count: 64
+      magma_block: 
+        count: 64
+      nether_wart_block: 
+        count: 64
+      red_nether_bricks: 
+        count: 64
+      nether_wart: 
+        count: 64
+  redstone:
+    name: "§4kit redstone"
+    ouverture_recompence: "§6Voilà votre kit redstone"
+    block: "REDSTONE"
+    items:
+      dispenser: 
+        count: 16
+      piston: 
+        count: 16
+      redstone_lamp: 
+        count: 32
+      hopper: 
+        count: 16
+      trapped_chest: 
+        count: 8
+      dropper: 
+        count: 16
+      observer: 
+        count: 16
+      note_block: 
+        count: 16
+      comparator: 
+        count: 16
+      redstone_lamp: 
+        count: 64
+      repeater: 
+        count: 16
+      redstone_torch: 
+        count: 32
+      lever: 
+        count: 8
+      tripwire_hook: 
+        count: 16
+      daylight_detector: 
+        count: 2
+  apiculteur:
+    name: "§4kit apiculteur"
+    ouverture_recompence: "§6Voilà votre kit apiculteur"
+    block: "HONEYCOMB"
+    items:
+      iron_axe: 
+        count: 1
+      bee_spawn_egg: 
+        count: 2
+  alchimiste:
+    name: "§4kit alchimiste"
+    ouverture_recompence: "§6Voilà votre kit alchimiste"
+    block: "BREWING_STAND"
+    items:
+      ghast_tear: 
+        count: 2
+      brewing_stand: 
+        count: 3
+      blaze_powder: 
+        count: 16
+      fermented_spider_eye: 
+        count: 16
+      magma_cream: 
+        count: 4
+      rabbit_foot: 
+        count: 1
+      phantom_membrane: 
+        count: 8
+      cauldron: 
+        count: 2
+      glistering_melon_slice: 
+        count: 16
+      water_bucket: 
+        count: 1
+      sugar: 
+        count: 8
+      gunpowder: 
+        count: 8
+      redstone: 
+        count: 8
+      feather: 
+        count: 1
+      wither_rose: 
+        count: 1
+  bucheron:
+    name: "§4kit bûcheron"
+    ouverture_recompence: "§6Voilà votre kit bûcheron"
+    block: "IRON_AXE"
+    items:
+      spruce_log: 
+        count: 64
+      oak_log: 
+        count: 64
+      dark_oak_log: 
+        count: 64
+      acacia_log: 
+        count: 64
+      birch_log: 
+        count: 64
+      jungle_log: 
+        count: 64
+      scaffolding: 
+        count: 64
+      iron_axe: 
+        count: 1
+      bone_meal: 
+        count: 64
+      spruce_sapling: 
+        count: 16
+      oak_sapling: 
+        count: 16
+      jungle_sapling: 
+        count: 16
+      acacia_sapling: 
+        count: 16
+      birch_sapling: 
+        count: 16
+      dark_oak_sapling:
+        count: 16
+  pecheur:
+    name: "§4kit pêcheur"
+    ouverture_recompence: "§6Voilà votre kit pêcheur"
+    block: "FISHING_ROD"
+    items:
+      cod: 
+        count: 64
+      salmon: 
+        count: 64
+      kelp: 
+        count: 64
+      seagrass: 
+        count: 64
+      brain_coral: 
+        count: 16
+      tube_coral: 
+        count: 16
+      horn_coral: 
+        count: 16
+      bubble_coral: 
+        count: 16
+      fire_coral_fan: 
+        count: 16
+      pufferfish: 
+        count: 16
+      tropical_fish: 
+        count: 32
+      lily_pad: 
+        count: 16
+      turtle_egg: 
+        count: 1
+      brain_coral_fan: 
+        count: 16
+      tube_coral_fan: 
+        count: 16
+      horn_coral_fan: 
+        count: 16
+      bubble_coral_fan: 
+        count: 16
+      fire_coral: 
+        count: 16
+      fishing_rod: 
+        count: 1
+      nautilus_shell: 
+        count: 2
+      oak_boat: 
+        count: 1
+  batisseur:
+    name: "§4kit bâtisseur"
+    ouverture_recompence: "§6Voilà votre kit bâtisseur"
+    block: "BRICKS"
+    items:
+      stone_bricks: 
+        count: 64
+      bricks: 
+        count: 64
+      polished_andesite: 
+        count: 64
+      cobblestone: 
+        count: 64
+      terracotta: 
+        count: 64
+      glass: 
+        count: 64
+      quartz_block: 
+        count: 64
+      oak_log: 
+        count: 64
+      scaffolding: 
+        count: 64
+      iron_pickaxe: 
+        count: 1
+      iron_axe: 
+        count: 1
+      iron_shovel: 
+        count: 1
+      orange_shulker_box: 
+        count: 1
+      stonecutter: 
+        count: 1
+      gravel: 
+        count: 64
+      sand: 
+        count: 64
+  fermier: 
+    name: "§4kit fermier"
+    ouverture_recompence: "§6Voilà votre kit fermier"
+    block: "IRON_HOE"
+    items:
+      composter: 
+        count: 1
+      wheat_seeds: 
+        count: 64
+      potato: 
+        count: 64
+      carrot: 
+        count: 64
+      cocoa_beans: 
+        count: 16
+      beetroot: 
+        count: 64
+      melon_seeds: 
+        count: 32
+      pumpkin_seeds: 
+        count: 32
+      water_bucket: 
+        count: 1
+      iron_hoe: 
+        count: 1
+      bone: 
+        count: 64
+      bamboo: 
+        count: 16
+      oak_fence_gate: 
+        count: 8
+      oak_fence: 
+        count: 64
+      cactus: 
+        count: 16
+      grass_block: 
+        count: 16
+      dirt: 
+        count: 64
+      chicken_spawn_egg: 
+        count: 1
